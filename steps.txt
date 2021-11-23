@@ -1,6 +1,12 @@
 Step1: vault server --config=vault.conf
 
+Goto browser open http://localhost:8200
+Generate 5 keys and 2 thershold
+save dowbloaded keys
+Initiate Unseal
+
 Only for first time
+Open another cmd from vault folder
 Step 2: set VAULT_ADDR=http://localhost:8200
 Step 3: set VAULT_TOKEN=s.ENnNBQXDuDwzKOwQiREbW3PK
 Step 4: vault secrets enable -path=secret/ kv
